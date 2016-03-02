@@ -1,7 +1,6 @@
 var app = require('express')();
 var request = require('request');
 var $ = require('cheerio');
-var fs = require('fs');
 var port = process.env.PORT || 3000;
 
 app.get('/jackpot', function(req, res) {
